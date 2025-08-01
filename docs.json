@@ -1,0 +1,31 @@
+{
+    "name": "Flutter Stripe",
+    "theme": "#635BFF",
+    "logo" : "https://user-images.githubusercontent.com/19904063/116995247-20519e80-acda-11eb-8e1b-7d0efbd193ad.png",
+    "sidebar": [
+        ["Overview", "/"],
+        ["Accept a Payment", [
+          ["Payment Sheet", "/sheet"],
+          ["Payment sheet (deferred payment)", "/sheet_deferred"],
+          ["CardField", "/card_field"],
+          ["CardFormField", "/card_field"]
+          ]      
+        ],
+        ["Mobile elements",
+          ["Address Sheet", "/address_sheet"],
+          ["Customer Sheet", "/customer_sheet"]
+        ],
+        ["Regional payments", [
+            ["ACH direct debit", "/ach"],
+            ["Ideal", "/ideal"]
+          ]
+        ],
+        ["Wallets", [
+          ["Google pay", "/google_pay"]
+        ]],
+        ["Financial connections", "/financial_connections" ],
+        ["Troubleshooting", "/troubleshooting"],
+        ["Migration guide platformpay", "/platform_pay_migration"],
+        ["Api Reference", "https://pub.dev/documentation/flutter_stripe/latest/flutter_stripe/flutter_stripe-library.html"]
+      ]
+}

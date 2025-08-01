@@ -1,0 +1,229 @@
+// coverage:ignore-file
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
+
+part of 'setup_intent_response.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
+
+T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+
+SetupIntentResponse _$SetupIntentResponseFromJson(Map<String, dynamic> json) {
+  return _SetupIntentResponse.fromJson(json);
+}
+
+/// @nodoc
+mixin _$SetupIntentResponse {
+  /// If not null, a SetupIntent was retrieved successfully
+  SetupIntent? get setupIntent => throw _privateConstructorUsedError;
+
+  /// If not null, an error occurred
+  StripeError? get error => throw _privateConstructorUsedError;
+
+  /// Serializes this SetupIntentResponse to a JSON map.
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  $SetupIntentResponseCopyWith<SetupIntentResponse> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $SetupIntentResponseCopyWith<$Res> {
+  factory $SetupIntentResponseCopyWith(
+          SetupIntentResponse value, $Res Function(SetupIntentResponse) then) =
+      _$SetupIntentResponseCopyWithImpl<$Res, SetupIntentResponse>;
+  @useResult
+  $Res call({SetupIntent? setupIntent, StripeError? error});
+
+  $SetupIntentCopyWith<$Res>? get setupIntent;
+  $StripeErrorCopyWith<$Res>? get error;
+}
+
+/// @nodoc
+class _$SetupIntentResponseCopyWithImpl<$Res, $Val extends SetupIntentResponse>
+    implements $SetupIntentResponseCopyWith<$Res> {
+  _$SetupIntentResponseCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? setupIntent = freezed,
+    Object? error = freezed,
+  }) {
+    return _then(_value.copyWith(
+      setupIntent: freezed == setupIntent
+          ? _value.setupIntent
+          : setupIntent // ignore: cast_nullable_to_non_nullable
+              as SetupIntent?,
+      error: freezed == error
+          ? _value.error
+          : error // ignore: cast_nullable_to_non_nullable
+              as StripeError?,
+    ) as $Val);
+  }
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $SetupIntentCopyWith<$Res>? get setupIntent {
+    if (_value.setupIntent == null) {
+      return null;
+    }
+
+    return $SetupIntentCopyWith<$Res>(_value.setupIntent!, (value) {
+      return _then(_value.copyWith(setupIntent: value) as $Val);
+    });
+  }
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StripeErrorCopyWith<$Res>? get error {
+    if (_value.error == null) {
+      return null;
+    }
+
+    return $StripeErrorCopyWith<$Res>(_value.error!, (value) {
+      return _then(_value.copyWith(error: value) as $Val);
+    });
+  }
+}
+
+/// @nodoc
+abstract class _$$SetupIntentResponseImplCopyWith<$Res>
+    implements $SetupIntentResponseCopyWith<$Res> {
+  factory _$$SetupIntentResponseImplCopyWith(_$SetupIntentResponseImpl value,
+          $Res Function(_$SetupIntentResponseImpl) then) =
+      __$$SetupIntentResponseImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({SetupIntent? setupIntent, StripeError? error});
+
+  @override
+  $SetupIntentCopyWith<$Res>? get setupIntent;
+  @override
+  $StripeErrorCopyWith<$Res>? get error;
+}
+
+/// @nodoc
+class __$$SetupIntentResponseImplCopyWithImpl<$Res>
+    extends _$SetupIntentResponseCopyWithImpl<$Res, _$SetupIntentResponseImpl>
+    implements _$$SetupIntentResponseImplCopyWith<$Res> {
+  __$$SetupIntentResponseImplCopyWithImpl(_$SetupIntentResponseImpl _value,
+      $Res Function(_$SetupIntentResponseImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? setupIntent = freezed,
+    Object? error = freezed,
+  }) {
+    return _then(_$SetupIntentResponseImpl(
+      setupIntent: freezed == setupIntent
+          ? _value.setupIntent
+          : setupIntent // ignore: cast_nullable_to_non_nullable
+              as SetupIntent?,
+      error: freezed == error
+          ? _value.error
+          : error // ignore: cast_nullable_to_non_nullable
+              as StripeError?,
+    ));
+  }
+}
+
+/// @nodoc
+@JsonSerializable()
+class _$SetupIntentResponseImpl implements _SetupIntentResponse {
+  const _$SetupIntentResponseImpl({this.setupIntent, this.error});
+
+  factory _$SetupIntentResponseImpl.fromJson(Map<String, dynamic> json) =>
+      _$$SetupIntentResponseImplFromJson(json);
+
+  /// If not null, a SetupIntent was retrieved successfully
+  @override
+  final SetupIntent? setupIntent;
+
+  /// If not null, an error occurred
+  @override
+  final StripeError? error;
+
+  @override
+  String toString() {
+    return 'SetupIntentResponse(setupIntent: $setupIntent, error: $error)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$SetupIntentResponseImpl &&
+            (identical(other.setupIntent, setupIntent) ||
+                other.setupIntent == setupIntent) &&
+            (identical(other.error, error) || other.error == error));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, setupIntent, error);
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$SetupIntentResponseImplCopyWith<_$SetupIntentResponseImpl> get copyWith =>
+      __$$SetupIntentResponseImplCopyWithImpl<_$SetupIntentResponseImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$SetupIntentResponseImplToJson(
+      this,
+    );
+  }
+}
+
+abstract class _SetupIntentResponse implements SetupIntentResponse {
+  const factory _SetupIntentResponse(
+      {final SetupIntent? setupIntent,
+      final StripeError? error}) = _$SetupIntentResponseImpl;
+
+  factory _SetupIntentResponse.fromJson(Map<String, dynamic> json) =
+      _$SetupIntentResponseImpl.fromJson;
+
+  /// If not null, a SetupIntent was retrieved successfully
+  @override
+  SetupIntent? get setupIntent;
+
+  /// If not null, an error occurred
+  @override
+  StripeError? get error;
+
+  /// Create a copy of SetupIntentResponse
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$SetupIntentResponseImplCopyWith<_$SetupIntentResponseImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}
